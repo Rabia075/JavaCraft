@@ -10,6 +10,7 @@ The repository is organized into two main modules:
 
 ## Project Structure
 
+```
 JavaCraft
 ┣ 📂 JavaBasics
 ┃ ┣ 📂 src
@@ -33,3 +34,4 @@ JavaCraft
 ┃
 ┣ 📜 .gitignore
 ┗ 📜 README.md   (main readme for whole repo)
+```
