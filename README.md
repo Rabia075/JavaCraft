@@ -38,7 +38,7 @@ JavaCraft
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Clone the repository and navigate to a module:
 
@@ -47,3 +47,13 @@ git clone https://github.com/your-username/JavaCraft.git
 cd JavaCraft/JavaBasics
 # or
 cd JavaCraft/EasyTipTool
+
+▶️ Compile and Run Any Java File
+
+---
+
+javac FileName.java
+java FileName
+
+
+---
