@@ -1,0 +1,173 @@
+<html>
+<head>
+<title>application</title>
+</head>
+<style>
+table,td,th{
+        border: 1px solid black;
+        border-collapse:collapse;
+}
+td,th{
+        text-align:center;
+}
+div {
+        color:white;
+        display:inline;
+        text-align:center;
+}
+.display
+{
+   background-color:gray;
+   text-align:center;
+   display:block;
+}
+#text11
+{
+    color:white;
+     display:block;
+    background-color:yellow;
+}
+.a1
+{
+    display:inline;
+    text-align:center;
+    font-family:fantasy;
+    
+}
+#ff
+{
+    font-size:240%;
+}
+#gg
+{
+    font-size:75%;
+}
+.s3
+{
+    display:inline;
+    text-align:center;
+}
+#w7
+{
+    text-align:center;
+}
+.w1
+{   
+    display:inline;
+    align:center;
+}
+#a7
+{
+    text-align:center;
+}
+body
+{
+background-image:url('ra.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+</style>
+<body>
+<span class="a1" id="ff"><b>web_pAge</b></span>
+<span class="a1" id="gg"><b> FOR WEBSITE</b></span><br><br>
+<span class="display" id="text"><b><i>My name is Fatima...</i></b></span>
+<span class="display" id="text11">My name is Fatima...</span>
+<p style="text-align:center;"><pre>[Date]
+[Name]
+[Title]
+[Company name]
+[Address]
+[Subject]
+Dear [name]</pre></p>
+<div style="background-color:gray;"  display:"block"><b><i>I am Ayesha..</i></b></div>
+<div style="background-color:black;"><b><i>I am Ayesha..</i></b></div><div style="background-color:red;"><b><i>I am Ayesha..</i></b></div><br>
+<h1 class="w1">W</h1><h5 class="w1"><sub>EB</sub></h5><br><br>
+<!-- That's a paragraph -->
+<em><big>A</big> <strong><ins><mark>paragraph</mark></ins></strong> <big>is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs. This is because paragraphs show a reader where the subdivisions of an essay begin and end,</big> <small><q>and thus help the reader see the organization of the essay and <del>grasp its main points.</del></q></small></em><br><br>
+
+
+<h1 class="s3" id="a7">A</h1><h5 class="s3" id="w7">PPLICATION</h5><br><br>
+<table style="width:100%">
+<caption><b>STUDENT DATA</b></caption>
+<tr>
+<th colspan="2">Name</th>
+<th>Semester</th>
+</tr>
+<tr>
+<td>Aynii</td>
+<td>Fatima</td>
+<td>5th</td>
+</tr>
+<tr>
+<td>Rabia</td>
+<td>BIBI</td>
+<td>5th</td>
+</tr>
+</table>
+<b>IMAGE IN <u>HTML</u> pAge</b><br><br>
+<img src="images.jpg" alt="imaGe ghaib" >
+<p><b>ViDeo IN <u style="color:red">HTML</u> paGe</b></p>
+<div style="text-align:center">
+<button onclick="playPause()">pLay/pauSe</button>
+<button onclick="makeBig()">biG</button>
+<button onclick="makeSmall()">smAll</button>
+<button onclick="makeNormal()">normAll</button>
+<video id="S1" width"340">
+<source src="857263-hd_1920_1080_24fps.mp4" type="video/mp4">
+<source src="857263-hd_1920_1080_24fps.ogg" type="video/ogg">
+</video>
+</div>
+<script>
+var myViDeo=document.getElementById("S1");
+function playPause()
+{
+if(myViDeo.paused)
+myViDeo.play();
+else
+myViDeo.pause();
+}
+function makeBig()
+{
+myViDeo.width=430;
+}
+function makeSmall()
+{
+myViDeo.width=260;
+}function makeNormal()
+{
+myViDeo.width=340;
+}
+</script>
+<p><u><b> FoRM in HTML paGe</b></u></p><br>
+<form style="background-color:azure" action="-actionFile.php">
+<fieldset>
+<legend><b>FoRm'S INformaTion</b></legend>
+<label for="fname"><b>First name:</b></label>
+<input style="border-radius:30px" type="text" id="fname" name="fname" placeholder="Enter your firstName!"><br><br>
+<label for="lname"><b>Last name:</b></label>
+<input style="border-radius:30px" type="text" id="lname" name="lname" placeholder="Enter your lastName!"><br>
+<input style="border-radius:30px" type="submit">
+<p><b style="color:red">RaDio</b> <b><u>ButtoNs</u></b></p>
+<p><u>Select a choice</u></p>
+<input type="radio" id="lan" name="example" value="lan">
+<label for="lan"><b>Engineering</b></label><br>
+<input type="radio" id="val" name="valueAble" value="val">
+<label for="val"><b>Security</b></label>
+</fieldset>
+</form>
+<p><u><b>LISTING IN HTML</b></u></p>
+<ul style="list-style-type:circle">
+<li>HTML</li>
+<li>CSS</li>
+<li>php</li>
+<li>javaScript</li>
+</ul><br>
+<p><u><b>liNk IN HTML paGe</u></b></p>
+<a href="https://chromewebstore.google.com/"  target="blank">Google Chrome</a><br><br>
+<b>IMAGE IN <u style="color:red">ANOTHER</u> FOLDER</b><br><br>
+<img src="/downloads/ww.jpg" alt="imaGe ghaib" ><br><br>
+<p><u><b>LiNk implementatioN</u></b></p>
+<a href="https://www.w3schools.com/"  target="blank">w3schools</a><br><br>
+<p><b><u>CANVAS IMPLEMENTATION</u></b></p>
+</body>
+</html>
