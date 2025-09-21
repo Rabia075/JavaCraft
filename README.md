@@ -35,3 +35,15 @@ JavaCraft
 ┣ 📜 .gitignore
 ┗ 📜 README.md   (main readme for whole repo)
 ```
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository and navigate to a module:
+
+```bash
+git clone https://github.com/your-username/JavaCraft.git
+cd JavaCraft/JavaBasics
+# or
+cd JavaCraft/EasyTipTool
