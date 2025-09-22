@@ -30,7 +30,7 @@ JavaCraft
 ┗ 📜 README.md  
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Java  
 - **IDE:** VS Code / IntelliJ IDEA (recommended)  
