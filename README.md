@@ -35,7 +35,7 @@ JavaCraft
 ## Tech Stack
 
 - **Language:** Java  
-- **IDE:** VS Code / IntelliJ IDEA (recommended)  
+- **IDE:** VS Code  
 - **Build Tools:** javac, java (default Java compiler & runtime)  
 - **Version Control:** Git + GitHub
 
