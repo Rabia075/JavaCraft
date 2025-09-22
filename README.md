@@ -30,6 +30,8 @@ JavaCraft
 ┗ 📜 README.md  
 ```
 
+---
+
 ## Tech Stack
 
 - **Language:** Java  
