@@ -11,50 +11,29 @@ The repository is organized into two main modules:
 ## Project Structure
 
 ```
-JavaCraft
-┣ 📂 JavaBasics
-┃ ┣ 📂 src
-┃ ┃ ┣ 📂 Day1
-┃ ┃ ┃ ┗ HelloYou.java
-┃ ┃ ┣ 📂 Day2
-┃ ┃ ┃ ┗ MyMessage.java
-┃ ┃ ┣ 📂 Day3
-┃ ┃ ┃ ┗ MyProfile.java
-┃ ┃ ┣ 📂 Day4
-┃ ┃ ┃ ┣ AgeCalculator.java
-┃ ┃ ┃ ┗ App.java
-┃ ┣ 📂 bin
-┃ ┗ 📜 README.md
-┃
-┣ 📂 EasyTipTool
-┃ ┣ 📂 src
-┃ ┃ ┗ EasyTip.java
-┃ ┣ 📂 bin
-┃ ┗ 📜 README.md
-┃
-┣ 📜 .gitignore
-┗ 📜 README.md   (main readme for whole repo)
+JavaCraft  
+┣ 📂 JavaBasics  
+┃ ┣ 📂 src  
+┃ ┃ ┣ 📂 Day1 → HelloYou.java  
+┃ ┃ ┣ 📂 Day2 → MyMessage.java  
+┃ ┃ ┣ 📂 Day3 → MyProfile.java  
+┃ ┃ ┣ 📂 Day4 → AgeCalculator.java, App.java  
+┃ ┣ 📂 bin  
+┃ ┗ 📜 README.md  
+┃  
+┣ 📂 EasyTipTool  
+┃ ┣ 📂 src → EasyTip.java  
+┃ ┣ 📂 bin  
+┃ ┗ 📜 README.md  
+┃  
+┣ 📜 .gitignore  
+┗ 📜 README.md  
 ```
 
----
+## 🛠️ Tech Stack
 
-## Getting Started
-
-Clone the repository and navigate to a module:
-
-```bash
-git clone https://github.com/your-username/JavaCraft.git
-cd JavaCraft/JavaBasics
-# or
-cd JavaCraft/EasyTipTool
-
-▶️ Compile and Run Any Java File
-
----
-
-javac FileName.java
-java FileName
-
-
----
+- **Language:** Java  
+- **IDE:** VS Code / IntelliJ IDEA (recommended)  
+- **Build Tools:** javac, java (default Java compiler & runtime)  
+- **Version Control:** Git + GitHub
 
