@@ -3,8 +3,8 @@
 A collection of Java projects for learning and practice.  
 The repository is organized into two main modules:
 
-- **JavaBasics** – Fundamental Java programs and exercises.  
-- **EasyTipTool** – A simple tip calculator application.
+- **Java_Learning_Tasks** – Contains weekly Java learning exercises and small programming tasks.  
+- **Java_Practice_Projects** – Includes simple mini projects built for practicing and applying Java concepts.
 
 ---
 
