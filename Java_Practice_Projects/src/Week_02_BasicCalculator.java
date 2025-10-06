@@ -7,8 +7,10 @@ public class Week_02_BasicCalculator {
 
         System.out.print("Enter first number: ");
         double num1 = input.nextDouble();
+        
         System.out.print("Enter second number: ");
         double num2 = input.nextDouble();
+        
         System.out.print("Enter operation (+, -, *, /): ");
         char operator = input.next().charAt(0);
 
