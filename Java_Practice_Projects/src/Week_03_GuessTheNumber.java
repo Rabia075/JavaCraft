@@ -34,7 +34,6 @@ public class Week_03_GuessTheNumber {
                 System.out.println("Too low! Try a larger number.\n");
             }
 
-            // Optional hint system
             if (attempts % 3 == 0) {
                 System.out.println("(Hint: The number is " 
                     + (randomNumber % 2 == 0 ? "even" : "odd") + "!)\n");
