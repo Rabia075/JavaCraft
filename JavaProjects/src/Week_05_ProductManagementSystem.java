@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Product class
 class Product {    
     private String name;
     private double price;
