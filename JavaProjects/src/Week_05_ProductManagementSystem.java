@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//Product class
+// Product class
 class Product {    
     private String name;
     private double price;
@@ -11,7 +11,7 @@ class Product {
         this.price = price;
         this.quantity = quantity;
     }
-//Show product
+// Show product
     public void displayProduct() {
         if (name == null) {
             System.out.println("\nNo product data available.");
@@ -21,7 +21,7 @@ class Product {
             System.out.println("Quantity     : " + quantity);
         }
     } 
-//Update price
+// Update price
     public void updatePrice(double newPrice) {
         if (name == null) {
             System.out.println("\nNo product found to update.");
@@ -33,7 +33,7 @@ class Product {
             System.out.println("\nInvalid price. Update failed.");
         }
     }
-//Update quantity
+// Update quantity
     public void updateQuantity(int newQty) {
         if (name == null) {
             System.out.println("\nNo product found to update.");
