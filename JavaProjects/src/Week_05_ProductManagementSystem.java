@@ -91,30 +91,24 @@ public class Week_05_ProductManagementSystem {
                 case 1:
                     product.displayProduct();
                     break;
-
                 case 2:
                     System.out.println("\nUpdating price for: Wireless Mouse");
                     product.updatePrice(2800.0);   // hardcoded update 
                     break;
-
                 case 3:
                     System.out.println("\nUpdating quantity for: Wireless Mouse");
                     product.updateQuantity(15);   // hardcoded update
                     break;
-
                 case 4:
                     System.out.println("\nSearching product: Wireless Mouse");
                     product.searchProduct("Wireless Mouse");
                     break;
-
                 case 5:
                     product.deleteProduct();
                     break;
-
                 case 0:
                     System.out.println("\nExiting system!");
                     break;
-
                 default:
                     System.out.println("\nInvalid choice. Please try again.");
             }
