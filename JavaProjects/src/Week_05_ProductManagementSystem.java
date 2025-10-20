@@ -73,7 +73,7 @@ public class Week_05_ProductManagementSystem {
 
         System.out.println("\n========== PRODUCT MANAGEMENT SYSTEM ==========\n");
 
-        Product product = new Product("Wireless Mouse", 2500.0, 10);   // hardcoded entry 
+        Product product = new Product("Wireless Mouse", 2500.0, 10);   // Hardcoded entry 
 
         int choice;
         do {
@@ -93,11 +93,11 @@ public class Week_05_ProductManagementSystem {
                     break;
                 case 2:
                     System.out.println("\nUpdating price for: Wireless Mouse");
-                    product.updatePrice(2800.0);   // hardcoded update 
+                    product.updatePrice(2800.0);   // Hardcoded update 
                     break;
                 case 3:
                     System.out.println("\nUpdating quantity for: Wireless Mouse");
-                    product.updateQuantity(15);   // hardcoded update
+                    product.updateQuantity(15);   // Hardcoded update
                     break;
                 case 4:
                     System.out.println("\nSearching product: Wireless Mouse");
