@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 //Product class
 class Product {    
     private String name;
@@ -10,7 +11,7 @@ class Product {
         this.price = price;
         this.quantity = quantity;
     }
-
+//Show product
     public void displayProduct() {
         if (name == null) {
             System.out.println("\nNo product data available.");
@@ -20,7 +21,7 @@ class Product {
             System.out.println("Quantity     : " + quantity);
         }
     } 
-
+//Update price
     public void updatePrice(double newPrice) {
         if (name == null) {
             System.out.println("\nNo product found to update.");
@@ -32,7 +33,7 @@ class Product {
             System.out.println("\nInvalid price. Update failed.");
         }
     }
-
+//Update quantity
     public void updateQuantity(int newQty) {
         if (name == null) {
             System.out.println("\nNo product found to update.");
@@ -44,7 +45,7 @@ class Product {
             System.out.println("\nInvalid quantity. Update failed.");
         }
     }
-
+// Find product
     public void searchProduct(String searchName) {
         if (name != null && name.equalsIgnoreCase(searchName)) {
             System.out.println("\nProduct found!");
@@ -53,7 +54,7 @@ class Product {
             System.out.println("\nNo product found with name: " + searchName);
         }
     }
- 
+ // Remove product
     public void deleteProduct() {
         if (name == null) {
             System.out.println("\nNo product to delete.");
